@@ -12,6 +12,13 @@ read-only: it reports, it doesn't change anything. Works in Windows PowerShell 5
 | `Get-ADSiteSubnetGap` | Client IPs missing from AD Sites and Services, found in each DC's `netlogon.log` |
 | `Test-ServerHardening` | The common scanner findings patching doesn't fix: SMBv1, SMB signing, TLS 1.0/1.1, LLMNR, NTLMv1, WDigest, RDP NLA |
 
+## Disclaimer
+
+> [!WARNING]
+> **Use at your own risk.** This module and its scripts are provided as-is, with no warranty or guarantee of any kind. The author accepts no liability for any damage, data loss, downtime or other problems that result from using them.
+>
+> Read and understand anything before you run it, do your own research, and test in a lab before using it in production. See the [MIT License](LICENSE) for the full terms.
+
 ## Getting started
 
 ### 1. Let PowerShell run the scripts
